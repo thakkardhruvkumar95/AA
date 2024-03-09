@@ -1,0 +1,162 @@
+.textt2 {
+    font-size: 50px;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(72, 104, 9);
+}
+
+#folio {
+    color: orangered;
+    font-size: 30px;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}
+
+.images {
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    height: 20rem;
+    position: relative;
+    left: 50%;
+    bottom: 7rem;
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: all ease 5s;
+}
+
+
+
+body {
+    background-color: rgb(1, 8, 14);
+    max-height: 100%;
+}
+
+button {
+    margin: 2.8rem;
+    position: relative;
+    left: 15%;
+    bottom: 1.8rem;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all ease 0.6s;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    border: none;
+    background-color: transparent;
+
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+button:hover {
+    box-shadow: 0 0 0;
+    transform: scale(1.1);
+}
+
+a :hover {
+    color: rgb(0, 0, 0);
+}
+
+img {
+    height: 40px;
+    position: relative;
+    left: 14rem;
+    margin: 0.9rem;
+    bottom: 0.2rem;
+}
+
+.instagram {
+    transition: all ease 0.5s;
+    height: 35px;
+}
+
+.instagram:hover {
+    transform: scale(1.2);
+}
+
+.twitter {
+    transition: all ease 0.5s;
+    height: 40px;
+    position: relative;
+
+}
+
+.twitter:hover {
+    transform: scale(1.2);
+}
+
+#element {
+    color: orangered;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    left: 10%;
+    top: 5rem;
+}
+
+.intro {
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: 9rem;
+    left: 9%;
+    font-weight: bolder;
+}
+
+
+.intro2 {
+    color: orangered;
+    font-size: 35px;
+    position: relative;
+    top: 9.9rem;
+    left: 12%;
+    font-weight: bolder;
+}
+
+
+#profile {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 25.5%;
+    bottom: 6.5rem;
+    background-color: orangered;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: all ease 0.5s;
+}
+
+#profile:hover {
+    box-shadow: 0 0 5px orangered, 0 0 8px orangered, 0 0 12px orangered;
+    font-size: 15px;
+
+}
+
+
+marquee {
+    color: orangered;
+    font-size: 30px;
+    position: relative;
+    font-weight: bolder;
+    font-style: italic;
+}
